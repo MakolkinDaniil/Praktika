@@ -1,0 +1,13 @@
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\bin\Debug\MagazinAudio.exe.config
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\bin\Debug\MagazinAudio.exe
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\bin\Debug\MagazinAudio.pdb
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.csproj.AssemblyReference.cache
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.csproj.SuggestedBindingRedirects.cache
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Autorization.resources
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Properties.Resources.resources
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.csproj.GenerateResource.cache
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.csproj.CoreCompileInputs.cache
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.exe
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.pdb
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Admin.resources
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Form3.resources
