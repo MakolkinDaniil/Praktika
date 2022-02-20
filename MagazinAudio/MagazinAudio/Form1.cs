@@ -17,6 +17,7 @@ namespace MagazinAudio
         public Autorization()
         {
             InitializeComponent();
+            textBoxPassword.PasswordChar = '*';
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -86,9 +87,26 @@ namespace MagazinAudio
             }
         }
 
-        private void buttonCancel_Click(object sender, EventArgs e)
+        private void buttonCancel_Click(object sender, EventArgs e) // закрыть окно
         {
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e) // показать пароль
+        {
+            if (textBoxPassword.PasswordChar == '*')
+            {
+                button1.BringToFront();
+                textBoxPassword.PasswordChar = '\0';
+            }
+        }
+        private void button1_Click(object sender, EventArgs e) // скрыть пароль
+        {
+            if (textBoxPassword.PasswordChar == '\0')
+            {
+                button2.BringToFront();
+                textBoxPassword.PasswordChar = '*';
+            }
         }
     }
 }

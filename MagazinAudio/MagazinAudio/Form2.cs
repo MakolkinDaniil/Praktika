@@ -33,10 +33,16 @@ namespace MagazinAudio
         {
 
         }
-
         private void Admin_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e) // выход
+        {
+            Autorization Autorization = new Autorization();
+            Autorization.Show();
+            this.Hide();
         }
     }
 }

@@ -11,3 +11,5 @@ C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.exe
 C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.pdb
 C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Admin.resources
 C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Products.resources
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.ProductsAdd.resources
+C:\Users\makol\source\repos\MagazinAudio\MagazinAudio\obj\Debug\MagazinAudio.Staff.resources
