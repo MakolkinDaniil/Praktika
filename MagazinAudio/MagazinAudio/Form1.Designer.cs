@@ -114,9 +114,9 @@
             this.panel1.Controls.Add(this.buttonCancel);
             this.panel1.Controls.Add(this.textBoxPassword);
             this.panel1.Controls.Add(this.textBoxLogin);
-            this.panel1.Location = new System.Drawing.Point(7, 11);
+            this.panel1.Location = new System.Drawing.Point(7, 7);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(420, 241);
+            this.panel1.Size = new System.Drawing.Size(420, 247);
             this.panel1.TabIndex = 6;
             // 
             // Autorization

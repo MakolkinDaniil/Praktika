@@ -29,13 +29,13 @@ namespace MagazinAudio
                     {
                         con.Open();
                         SqlCommand cmd = con.CreateCommand();
-                        cmd.CommandText = "select Password from [Staff] where Login = '" + textBoxLogin.Text + "'";
+                        cmd.CommandText = "select Password from [Staff] where Email = '" + textBoxLogin.Text + "'";
                         string password = Convert.ToString(cmd.ExecuteScalar());
                         if (password != "")
                         {
-                            if (textBoxPassword.Text == password) // если пароль верный
+                            if (textBoxPassword.Text == password)
                             {
-                                cmd.CommandText = "select [Post ID] from [Staff] where Login = '" + textBoxLogin.Text + "'";
+                                cmd.CommandText = "select [Post ID] from [Staff] where Email = '" + textBoxLogin.Text + "'";
                                 string Staff = Convert.ToString(cmd.ExecuteScalar());
 
                                 switch (Staff)
@@ -56,11 +56,19 @@ namespace MagazinAudio
                                             this.Hide();
                                         }
                                         break;
+                                    case "3":
+                                        {
+                                            MessageBox.Show("Добро пожаловать!");
+                                            Admin Admin = new Admin();
+                                            Admin.Show();
+                                            this.Hide();
+                                        }
+                                        break;
                                 }
                             }
-                            else { MessageBox.Show("Не верный пароль!"); }
+                            else { MessageBox.Show("Неверный пароль!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                         }
-                        else { MessageBox.Show("Не верный Email!"); }
+                        else { MessageBox.Show("Неверный логин!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                     }
                     catch (Exception ex)
                     {
@@ -71,6 +79,10 @@ namespace MagazinAudio
                         con.Close();
                     }
                 }
+            }
+            else
+            {
+                MessageBox.Show("Не все поля заполнены!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

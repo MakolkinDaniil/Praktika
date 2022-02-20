@@ -19,12 +19,24 @@ namespace MagazinAudio
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Products Products = new Products();
+            Products.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void Admin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Admin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
